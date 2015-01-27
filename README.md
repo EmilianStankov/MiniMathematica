@@ -14,8 +14,8 @@ This calculator can do the following things:
 - evaluate an expression comprised of all of the above
 
 ## How to run it?
-You can run this program by typing this command:
-`python3 mathematica.py`
+You need to have __Python3__ installed and if you do, you can run this program by executing the following command:
+`python3 cli.py`
 
 ## Then what?
 Enter a (valid) mathematical expression using the following syntax:
@@ -33,7 +33,7 @@ Enter a (valid) mathematical expression using the following syntax:
 	`log(k, n)`, where __k__ is the base and __n__ the number you want the logarithm of.
 
 #### Example
-	please enter an expression you would like to be calculated >
-	5 + sin(pi) / pow(2, 10) - log(e, pow(e, sqrt(4)))
-	The result is: 3.0
+	Enter an expression you would like to be calculated.
+    > 5 + sin(pi) / pow(2, 10) - log(e, pow(e, sqrt(4)))
+    The result is: 3.0
 

@@ -50,8 +50,3 @@ class MiniMathematica:
                 else:
                     stack.append(float(token))
         return stack[0]
-
-if __name__ == "__main__":
-    while True:
-        expression = input("please enter an expression you would like to be calculated >\n")
-        print("The result is: {0}".format(MiniMathematica().calculate(expression)))
