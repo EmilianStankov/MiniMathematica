@@ -14,7 +14,7 @@ This calculator can do the following things:
 - evaluate an expression comprised of all of the above
 
 ## How to run it?
-You need to have __Python3__ installed and if you do, you can run this program by executing the following command:
+You need to have __Python3__ installed and if you do, you can run this program by executing the following command:  
 `python3 cli.py`
 
 ## Then what?
