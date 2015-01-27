@@ -10,6 +10,7 @@ This calculator can do the following things:
 - evaluate __square root__, __nth-root__ and __power__
 - evaluate __logarithms__
 - supports constants(__Pi__ and __E__)
+- supports negative numbers
 - evaluate an expression comprised of all of the above
 
 ## How to run it?
