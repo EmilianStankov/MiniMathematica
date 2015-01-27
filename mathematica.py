@@ -33,7 +33,10 @@ class MiniMathematica:
         stack = []
         while rpn:
             token = rpn.pop(0)
-            if token in self.operators:
+            if token == '-' and len(stack) < 2:
+                a = stack.pop()
+                stack.append(-float(a))
+            elif token in self.operators:
                 if token in self.single_argument_operators:
                     a = stack.pop()
                     stack.append(self.operators[token](a))
