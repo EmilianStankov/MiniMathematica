@@ -1,4 +1,4 @@
-from tokenizer import Tokenizer
+from .tokenizer import Tokenizer
 class RPN:
     def __init__(self, expression):
         self.operators = {

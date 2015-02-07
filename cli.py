@@ -1,4 +1,4 @@
-from mathematica import MiniMathematica
+from src.mathematica import MiniMathematica
 
 
 instructions = """

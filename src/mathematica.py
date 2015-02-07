@@ -1,4 +1,4 @@
-from rpn import RPN
+from .rpn import RPN
 import math
 
 
